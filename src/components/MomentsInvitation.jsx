@@ -10,9 +10,9 @@ export default function MomentsInvitation() {
         <Heart size={62} strokeWidth={1} />
         <Sparkles size={16} />
       </div>
-      <h3>{momentos.mensaje}</h3>
-      <p>{momentos.invitacion}</p>
-      <span className="moments-signature" aria-hidden="true">Contigo, desde el primer momento. ♡</span>
+      <blockquote className="coincidence-poem">
+        <p><em>{momentos.texto}</em></p>
+      </blockquote>
     </article>
   );
 }
