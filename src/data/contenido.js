@@ -1,9 +1,9 @@
 // Personaliza aquí. Rutas de fotos y audio: /photos/archivo.jpg y /audio/musica.mp3.
 export const contenido = {
   nombre: '',
-  bienvenida: 'Hola, tengo algo especial que quiero mostrarte',
-  subtitulo: 'Un pequeño universo de cosas que quiero decirte. Sin prisas, con mucho cariño y solo para ti.',
-  mensajes: ['Eres una persona increíble.', 'Eres muy importante para mí.', 'Me encanta verte sonreír.', 'Tienes una forma muy bonita de alegrar mis días.', 'Me haces sentir cosas que no siempre sé explicar.', 'Hay personas que llegan a nuestra vida y la hacen más bonita. Tú eres una de ellas.', 'Si pudiera regalarte algo, sería la oportunidad de verte a través de mis ojos para que comprendieras lo especial que eres.'],
+  bienvenida: 'Buenso dias mi reina hermosa, tengo algo especial que quiero mostrarte',
+  subtitulo: 'Un pequeño detalle con cosas que quiero decirte. Con mucho cariño y solo para ti.',
+  mensajes: ['Eres una persona increíble.', 'Eres muy importante para mí.', 'Me encanta verte sonreír.', 'Tienes la capacidad de hacer mis dias mucho mas bonitos y de alegrar mis días.', 'Me haces sentir cosas que no sé explicar.', 'Hay personas que llegan a nuestra vida y la hacen más bonita. Tú eres una de ellas.', 'Si pudiera regalarte algo, sería la oportunidad de verte a través de mis ojos para que comprendieras lo especial que eres.'],
   idiomas: [ ['Español','Te amo'], ['Inglés','I love you'], ['Francés',"Je t’aime"], ['Italiano','Ti amo'], ['Portugués','Eu te amo'], ['Alemán','Ich liebe dich'], ['Japonés','愛してる'], ['Coreano','사랑해'], ['Chino','我爱你'], ['Ruso','Я тебя люблю'], ['Árabe','أحبك'], ['Griego','Σ’ αγαπώ'] ],
   corazon: 'No importa en qué idioma lo diga, lo que siento por ti sigue siendo igual de especial.',
   cualidades: [
@@ -17,11 +17,11 @@ export const contenido = {
     ['Lo especial que eres','Ojalá puedas verte con el cariño con el que yo te veo.'],
     ['Los momentos','Aquí puedes escribir sobre un momento que quieras compartir.']
   ],
-  carta: 'Para ti,\n\nEste es un espacio para las palabras que quiero dedicarte. Aquí escribiré, con calma y con mis propias palabras, todo eso que me gustaría que supieras.\n\nPuedes reemplazar este texto por tu carta: no hace falta que sea perfecta, solo que sea tuya.\n\nCon mucho cariño,\nTu persona especial',
+  carta: 'Para ti,\n\nSabes aveces no soy el mejor expresandome ni nunca lo he sido, sé que muchas veces te no lo hago bien, pero siempre te voy a querer, sabes tampoco creo que te agradecí lo suficiente esa vez que me regalaste me sentí tan feliz amor, y te agradezco porque cada vez que te visto has hecho más bonitos mis días.\n\nAtentamente un loco que la quiere mucho más de lo que se imagina y para el cual usted ya se volvió muy importante y no quisiera perderla nunca, nose a donde vamor pero quiero que sea con usted mi amor.\n\nCon mucho cariño,\nTu persona especial',
   fotos: [{src:'',texto:'Un instante para guardar'},{src:'',texto:'De esos que hacen sonreír'},{src:'',texto:'Y muchos más por venir'}],
   sorpresa: 'Entre tantas personas en el mundo, me alegra muchísimo haberte conocido. Eres alguien que ocupa un lugar muy especial en mi corazón.',
   final: 'Eres más importante para mí de lo que imaginas.',
-  gracias: 'Gracias por existir y por hacer mis días un poquito más bonitos.',
+  gracias: 'Gracias por existir y por hacer mis días mucho más bonitos.',
   abrazo: 'Si pudiera estar ahí ahora, te daría un abrazo de esos que no tienen prisa. Este es para ti. ♡',
   musica: {spotifyTrackId:'21t07fSxEHAjazqclabTEJ',titulo:'A Dónde Vamos · Morat',src:'',volumen:0.25} // Deja spotifyTrackId vacío para usar audio propio o la melodía instrumental.
 };
