@@ -23,5 +23,5 @@ export const contenido = {
   final: 'Eres más importante para mí de lo que imaginas.',
   gracias: 'Gracias por existir y por hacer mis días un poquito más bonitos.',
   abrazo: 'Si pudiera estar ahí ahora, te daría un abrazo de esos que no tienen prisa. Este es para ti. ♡',
-  musica: {src:'',volumen:0.25} // Sin archivo se genera una melodía instrumental original.
+  musica: {spotifyTrackId:'21t07fSxEHAjazqclabTEJ',titulo:'A Dónde Vamos · Morat',src:'',volumen:0.25} // Deja spotifyTrackId vacío para usar audio propio o la melodía instrumental.
 };
