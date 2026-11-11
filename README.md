@@ -17,5 +17,5 @@ El workflow configura automáticamente la ruta base usando el nombre del reposit
 
 ## Comprobar producción
 `npm run build -- --base=/nombre-repo/`
-`npm run preview`
+`npm run preview -- --base=/nombre-repo/`
 Abre la ruta `/nombre-repo/` que corresponda al build. Navega los ocho capítulos; prueba mensajes, corazón e idiomas, estrellas, carta, fotos y Escape, regalo, abrazo y música. Activa movimiento reducido en el sistema para comprobar accesibilidad. La música requiere un toque y se conserva entre capítulos.

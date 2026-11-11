@@ -1,0 +1,5 @@
+import React,{useState,useEffect} from 'react';
+import {motion,AnimatePresence} from 'motion/react';
+import {Heart,ArrowRight,Sparkles,Mail,Camera,X,ChevronLeft,ChevronRight,Download} from 'lucide-react';
+import {rise,asset} from './shared';
+export default function RomanticMessages({data}){const [n,setN]=useState(0);return <><div className="message-stack"><div className="stack-back"/><AnimatePresence mode="wait"><motion.article key={n} initial={{opacity:0,y:22,rotate:n%2?3:-3}} animate={{opacity:1,y:0,rotate:0}} exit={{opacity:0,x:-50}} className="message-card"><span className="tiny-label">UNA RAZÓN MÁS PARA SONREÍR</span><Heart size={25} strokeWidth={1}/><h3>{data.mensajes[n]}</h3><span className="card-number">{String(n+1).padStart(2,'0')} / {String(data.mensajes.length).padStart(2,'0')}</span></motion.article></AnimatePresence></div><button className="primary" onClick={()=>setN((n+1)%data.mensajes.length)}>{n===data.mensajes.length-1?'Volver a leerlas':'Una cosa más'} <ArrowRight size={16}/></button><div className="dots">{data.mensajes.map((_,i)=><button key={i} aria-label={`Mensaje ${i+1}`} className={i===n?'active':''} onClick={()=>setN(i)}/>)}</div></>}

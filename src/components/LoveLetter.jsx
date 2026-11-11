@@ -1,0 +1,5 @@
+import React,{useState,useEffect} from 'react';
+import {motion,AnimatePresence} from 'motion/react';
+import {Heart,ArrowRight,Sparkles,Mail,Camera,X,ChevronLeft,ChevronRight,Download} from 'lucide-react';
+import {rise,asset} from './shared';
+export default function LoveLetter({data}){const [open,setOpen]=useState(false),[count,setCount]=useState(0);useEffect(()=>{if(!open||count>=data.carta.length)return;const t=setTimeout(()=>setCount(n=>n+3),18);return()=>clearTimeout(t)},[open,count,data.carta]);return <><div className={'envelope '+(open?'opened':'')}><div className="flap"/><Mail size={42} strokeWidth={.8}/><span className="seal">♥</span></div>{!open?<button className="primary" onClick={()=>setOpen(true)}>Abrir mi carta <Heart size={16}/></button>:<motion.article {...rise} className="letter"><span className="tiny-label">DESDE EL CORAZÓN</span><p>{data.carta.slice(0,count)}</p>{count<data.carta.length&&<button className="text-button" onClick={()=>setCount(data.carta.length)}>Leer la carta completa</button>}<Heart size={20}/></motion.article>}</>}
